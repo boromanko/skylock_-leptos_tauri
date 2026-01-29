@@ -1,25 +1,54 @@
-# Skylock UI (Leptos + Tauri) — Intent & Rules
+# Skylock UI (Leptos + Tauri) — Project Intent & Rules
 
-## Purpose
-This repository contains the new Skylock UI built with **Leptos + Tauri**. The UI is used on a dedicated device and is fully operable via **6 hardware buttons** (Up, Down, Left, Right, Enter, Esc). Keyboard/mouse support is secondary.
+## What this is
+Skylock UI is a **keyboard‑first** interface for a dedicated device. The app is built in **Leptos + Tauri**, runs as a single desktop app, and is fully operable with **6 hardware buttons** (Up, Down, Left, Right, Enter, Esc). Mouse/keyboard support is secondary.
 
 ## Scope
 - Build the UI from scratch, using the legacy Rust prototype **only as visual reference**.
-- No backend/frontend split in runtime; Tauri hosts the UI and bridges to the backend later.
-- Focus on **UI structure, styles, and interaction logic**.
+- No separate frontend/backend at runtime; Tauri hosts the UI and later bridges to backend.
+- Focus on **UI structure, styling, and interaction logic** (no business logic here).
 
-## Core Principles
-- **SCSS-first:** styling and animations are done in SCSS; JS/Rust only for UI logic and state.
-- **Keyboard-first UX:** every screen is fully usable with the 6 buttons.
-- **Stable focus model:** all focusable elements have stable IDs and visible focus states.
-- **No business logic in UI:** UI emits typed events; backend integration is added later.
+## Architecture at a glance
+- **UI framework:** Leptos
+- **Shell:** Tauri
+- **Styling:** SCSS + CSS variables
+- **State:** UI state lives in Leptos; backend integration later
+- **Docs:** kept in `app/docs/` and must be kept current
 
-## Working Agreement
-- Use clear, readable components and predictable folder structure.
-- Prefer tokens (CSS variables) over raw values.
-- Keep animations and transitions in CSS.
-- Update this document if we change rules or architecture decisions.
+## Folder map (where to look)
+- `app/src/screens/` — app screens (Home, Radial, Settings, Wizard)
+- `app/src/components/` — reusable UI components
+- `app/src/state/` — navigation, focus, UI state
+- `app/src/styles/` — tokens + base + components SCSS
+- `app/public/fonts/` — local fonts (Inter + Material Symbols)
+- `app/docs/` — project docs, tokens sources, icon list
+- `reference prototype/` — legacy reference only (not committed)
 
-## Reference
-- Legacy prototype (ignored by git): `Skylock reference prototype/`
-- Design system WIP may be used as reference only.
+## Non‑negotiable rules (must do)
+- **SCSS‑first:** all styling & animations in SCSS.
+- **Token‑first:** use CSS variables; no raw values in components.
+- **Keyboard‑first:** every screen works with 6 hardware buttons.
+- **Stable focus:** every focusable element has a stable ID and visible focus state.
+- **Event‑driven UI:** components emit events; screens/controllers decide effects.
+- **Docs stay current:** update `app/docs/` on every structural or rules change.
+
+## Things you MUST NOT do
+- Do **not** add business logic or backend calls to UI components.
+- Do **not** hardcode colors, sizes, or fonts in component styles.
+- Do **not** rely on mouse/hover for required actions.
+- Do **not** introduce uncontrolled focus changes (no stealing focus every frame).
+- Do **not** modify the legacy prototype; treat it as read‑only.
+- Do **not** introduce SCSS complexity (deep nesting, huge mixins).
+
+## How we implement UI (simple workflow)
+1) Check reference prototype for visuals only.
+2) Add/adjust tokens in `app/src/styles/tokens.scss` or `typography.scss`.
+3) Implement component styles in SCSS using tokens.
+4) Implement UI logic in Leptos with keyboard navigation + focus.
+5) Update docs in `app/docs/` if anything changes.
+
+## References
+- Legacy prototype: `reference prototype/`
+- Tokens source: `app/docs/Variable collection.json`
+- Typography source: `app/docs/textStyles.json`
+- Icon list: `app/docs/icons.json`
