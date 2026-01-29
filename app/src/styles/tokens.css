@@ -1,0 +1,106 @@
+:root {
+  /* Color tokens (normalized from Figma Variable collection) */
+  --color-black-100: #0a0a0a; /* colors/Black 100% */
+  --color-black-25: rgba(10, 10, 10, 0.25); /* colors/Black 25% */
+  --color-black-50: rgba(10, 10, 10, 0.5); /* colors/Black 50% */
+  --color-black-75: rgba(10, 10, 10, 0.75); /* colors/Black 75% */
+  --color-black-90: rgba(10, 10, 10, 0.9); /* colors/Black 90% */
+  --color-blue-100: #e5f2ff; /* colors/blue 100 */
+  --color-blue-200: #c7e4ff; /* colors/blue 200 */
+  --color-blue-300: #9bcbff; /* colors/blue 300 */
+  --color-blue-400: #6eaeff; /* colors/blue 400 */
+  --color-blue-500: #0a84ff; /* colors/blue 500 */
+  --color-blue-600: #006fdd; /* colors/blue 600 */
+  --color-blue-700: #0056ad; /* colors/blue 700 */
+  --color-blue-800: #003f82; /* colors/blue 800 */
+  --color-blue-900: #002f61; /* colors/blue 900 */
+  --color-gray-900: #141414; /* colors/Grey 900 */
+  --color-green-100: #d1fae6; /* colors/green 100 */
+  --color-green-200: #aaf8d1; /* colors/green 200 */
+  --color-green-300: #81f8bd; /* colors/green 300 */
+  --color-green-400: #58f9a9; /* colors/green 400 */
+  --color-green-500: #06dd72; /* colors/green 500 */
+  --color-green-600: #03de71; /* colors/green 600 */
+  --color-green-700: #01b75c; /* colors/green 700 */
+  --color-green-800: #008f48; /* colors/green 800 */
+  --color-green-900: #007038; /* colors/green 900 */
+  --color-orange-100: #fbe1d0; /* colors/Orange 100 */
+  --color-orange-200: #fac9a8; /* colors/Orange 200 */
+  --color-orange-300: #fca87e; /* colors/Orange 300 */
+  --color-orange-400: #fd8c53; /* colors/Orange 400 */
+  --color-orange-500: #ff5500; /* colors/Orange 500 */
+  --color-orange-600: #e04b00; /* colors/Orange 600 */
+  --color-orange-700: #b83d00; /* colors/Orange 700 */
+  --color-orange-800: #8f3000; /* colors/Orange 800 */
+  --color-orange-900: #702d00; /* colors/Orange 900 */
+  --color-red-100: #f3d8d8; /* colors/red 100 */
+  --color-red-200: #ebb7b7; /* colors/red 200 */
+  --color-red-300: #e49595; /* colors/red 300 */
+  --color-red-400: #de7373; /* colors/red 400 */
+  --color-red-500: #d44343; /* colors/red 500 */
+  --color-red-600: #b92828; /* colors/red 600 */
+  --color-red-700: #981f1f; /* colors/red 700 */
+  --color-red-800: #771717; /* colors/red 800 */
+  --color-red-900: #5e1212; /* colors/red 900 */
+  --color-white-10: rgba(255, 255, 255, 0.1); /* colors/white 10% */
+  --color-white-100: #ffffff; /* colors/white 100% */
+  --color-white-15: rgba(255, 255, 255, 0.15); /* colors/white 15% */
+  --color-white-20: rgba(255, 255, 255, 0.2); /* colors/white 20% */
+  --color-white-25: rgba(255, 255, 255, 0.25); /* colors/white 25% */
+  --color-white-30: rgba(255, 255, 255, 0.3); /* colors/white 30% */
+  --color-white-4: rgba(255, 255, 255, 0.04); /* colors/white 4% */
+  --color-white-40: rgba(255, 255, 255, 0.4); /* colors/white 40% */
+  --color-white-50: rgba(255, 255, 255, 0.5); /* colors/white 50% */
+  --color-white-75: rgba(255, 255, 255, 0.75); /* colors/white 75% */
+  --color-white-8: rgba(255, 255, 255, 0.08); /* colors/white 8% */
+  --color-yellow-100: #fff8e1; /* colors/yello 100 */
+  --color-yellow-200: #ffedb3; /* colors/yello 200 */
+  --color-yellow-300: #ffe180; /* colors/yello 300 */
+  --color-yellow-400: #ffd54d; /* colors/yello 400 */
+  --color-yellow-500: #ffcc00; /* colors/yello 500 */
+  --color-yellow-600: #e6b400; /* colors/yello 600 */
+  --color-yellow-700: #bf9300; /* colors/yello 700 */
+  --color-yellow-800: #997400; /* colors/yello 800 */
+  --color-yellow-900: #7a5c00; /* colors/yello 900 */
+
+  /* Semantic tokens */
+  --text-primary: var(--color-white-100);
+  --text-secondary: var(--color-white-75);
+  --text-muted: var(--color-white-50);
+  --text-disabled: var(--color-white-25);
+  --text-danger: var(--color-red-500);
+  --text-on-primary: var(--color-white-100);
+
+  --icon-primary: var(--color-white-100);
+  --icon-secondary: var(--color-white-50);
+  --icon-disabled: var(--color-white-25);
+
+  --surface-base: var(--color-black-100);
+  --surface-muted: var(--color-white-4);
+  --surface-raised: var(--color-white-10);
+
+  --border-subtle: var(--color-white-10);
+  --border-focus: var(--color-white-20);
+
+  --action-default: var(--color-white-4);
+  --action-hover: var(--color-white-15);
+  --action-focus: var(--color-white-20);
+  --action-pressed: var(--color-white-30);
+  --action-disabled: var(--color-white-25);
+
+  --action-primary: var(--color-blue-500);
+  --action-primary-hover: var(--color-blue-400);
+  --action-primary-focus: var(--color-blue-400);
+  --action-primary-pressed: var(--color-blue-600);
+  --action-primary-disabled: var(--color-white-25);
+
+  --accent-primary: var(--color-blue-500);
+  --accent-primary-hover: var(--color-blue-400);
+  --accent-danger: var(--color-red-400);
+
+  --switch-track-on: var(--color-blue-500);
+  --switch-track-off: var(--color-white-10);
+  --switch-track-disabled: var(--color-white-25);
+  --switch-thumb: var(--color-white-100);
+  --switch-thumb-disabled: var(--color-white-50);
+}
