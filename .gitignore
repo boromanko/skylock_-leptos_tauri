@@ -1,16 +1,5 @@
 # macOS
 .DS_Store
 
-# Prototype reference (not part of app repo)
+# Prototype reference (if restored later)
 Skylock reference prototype/
-
-# Rust / Cargo
-/target/
-**/*.rs.bk
-
-# Node / web
-node_modules/
-dist/
-
-# Tauri
-src-tauri/target/
