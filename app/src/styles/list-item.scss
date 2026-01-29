@@ -1,0 +1,120 @@
+$list-item-radius: 16px;
+$list-item-pad-left: 24px;
+$list-item-pad-left-circle: 12px;
+$list-item-pad-right: 16px;
+$list-item-pad-y: 24px;
+$list-item-gap: 16px;
+$list-item-text-gap: 4px;
+$list-item-circle-size: 48px;
+$list-item-icon-size: 24px;
+$list-item-trailing-size: 28px;
+$list-item-pressed-scale: 0.965;
+
+.list-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: $list-item-gap;
+  padding: $list-item-pad-y $list-item-pad-right $list-item-pad-y $list-item-pad-left;
+  border-radius: $list-item-radius;
+  color: var(--text-secondary);
+  background: transparent;
+  transition: background 120ms ease, transform 120ms ease, color 120ms ease;
+}
+
+.list-item--with-leading {
+  padding-left: $list-item-pad-left-circle;
+}
+
+.list-item__leading {
+  width: $list-item-circle-size;
+  height: $list-item-circle-size;
+  border-radius: 50%;
+  background: var(--surface-raised);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--icon-secondary);
+}
+
+.list-item__leading--primary {
+  background: var(--accent-primary);
+  color: var(--text-on-primary);
+}
+
+.list-item__content {
+  display: grid;
+  gap: $list-item-text-gap;
+}
+
+.list-item__title {
+  color: var(--text-secondary);
+}
+
+.list-item__subtitle {
+  color: var(--text-muted);
+}
+
+.list-item__trailing {
+  width: $list-item-trailing-size;
+  height: $list-item-trailing-size;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--icon-secondary);
+}
+
+.list-item:hover,
+.list-item:focus-visible {
+  background: var(--surface-raised);
+  color: var(--text-primary);
+}
+
+.list-item:hover .list-item__title,
+.list-item:focus-visible .list-item__title {
+  color: var(--text-primary);
+}
+
+.list-item:hover .list-item__trailing,
+.list-item:focus-visible .list-item__trailing {
+  color: var(--icon-primary);
+}
+
+.list-item:active {
+  transform: scale($list-item-pressed-scale);
+}
+
+.list-item--primary .list-item__title {
+  color: var(--accent-primary);
+}
+
+.list-item--primary:hover .list-item__title,
+.list-item--primary:focus-visible .list-item__title {
+  color: var(--accent-primary-hover);
+}
+
+.list-item--primary .list-item__trailing {
+  color: var(--accent-primary);
+}
+
+.list-item--danger .list-item__title,
+.list-item--danger .list-item__subtitle,
+.list-item--danger .list-item__trailing {
+  color: var(--accent-danger);
+}
+
+.text-16-600 {
+  font-size: var(--text-16-600-size);
+  font-weight: var(--text-16-600-weight);
+  line-height: var(--text-16-600-lh);
+}
+
+.text-12-400 {
+  font-size: var(--text-12-400-size);
+  font-weight: var(--text-12-400-weight);
+  line-height: var(--text-12-400-lh);
+}
+
+.text-muted {
+  color: var(--text-muted);
+}

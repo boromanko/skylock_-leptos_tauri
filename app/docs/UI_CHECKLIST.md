@@ -10,7 +10,7 @@
 ## Core Components
 - [ ] Button
 - [ ] Icon Button
-- [ ] List Item (Settings row)
+- [x] List Item (Settings row)
 - [ ] Toggle Switch
 - [ ] Radio / Checkbox
 - [ ] Text Input (editable field)

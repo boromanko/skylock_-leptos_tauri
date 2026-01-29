@@ -17,6 +17,10 @@
   color: var(--icon-primary);
 }
 
+.icon::before {
+  content: var(--icon-glyph, "");
+}
+
 .icon--filled {
   font-family: "Material Symbols Rounded Filled";
 }

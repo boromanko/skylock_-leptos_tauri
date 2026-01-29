@@ -1,13 +1,13 @@
-mod app;
-
-use app::*;
 use leptos::prelude::*;
 
+use crate::app::App;
+
+mod app;
+mod components;
+mod screens;
+mod state;
+mod styles;
+
 fn main() {
-    console_error_panic_hook::set_once();
-    mount_to_body(|| {
-        view! {
-            <App/>
-        }
-    })
+    mount_to_body(|| view! { <App /> });
 }
