@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/inter/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/inter/Inter-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/inter/Inter-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Material Symbols Rounded";
+  src: url("/fonts/material_symbols/MaterialSymbolsRounded_28pt-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "Material Symbols Rounded Filled";
+  src: url("/fonts/material_symbols/MaterialSymbolsRounded_Filled_28pt-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+:root {
+  --font-family-base: "Inter", system-ui, -apple-system, sans-serif;
+
+  /* Text tokens (from textStyles.json) */
+  --text-36-600-size: 36px;
+  --text-36-600-weight: 600;
+  --text-36-600-lh: 1.2;
+
+  --text-36-500-size: 36px;
+  --text-36-500-weight: 500;
+  --text-36-500-lh: 1.2;
+
+  --text-36-400-size: 36px;
+  --text-36-400-weight: 400;
+  --text-36-400-lh: 1.2;
+
+  --text-28-600-size: 28px;
+  --text-28-600-weight: 600;
+  --text-28-600-lh: 1;
+
+  --text-28-500-size: 28px;
+  --text-28-500-weight: 500;
+  --text-28-500-lh: 1;
+
+  --text-28-400-size: 28px;
+  --text-28-400-weight: 400;
+  --text-28-400-lh: 1;
+
+  --text-24-600-size: 24px;
+  --text-24-600-weight: 600;
+  --text-24-600-lh: 1;
+
+  --text-24-500-size: 24px;
+  --text-24-500-weight: 500;
+  --text-24-500-lh: 1;
+
+  --text-24-400-size: 24px;
+  --text-24-400-weight: 400;
+  --text-24-400-lh: 1;
+
+  --text-18-600-size: 18px;
+  --text-18-600-weight: 600;
+  --text-18-600-lh: 1;
+
+  --text-18-500-size: 18px;
+  --text-18-500-weight: 500;
+  --text-18-500-lh: 1;
+
+  --text-18-400-size: 18px;
+  --text-18-400-weight: 400;
+  --text-18-400-lh: 1;
+
+  --text-16-600-size: 16px;
+  --text-16-600-weight: 600;
+  --text-16-600-lh: 1;
+
+  --text-16-500-size: 16px;
+  --text-16-500-weight: 500;
+  --text-16-500-lh: 1;
+
+  --text-16-400-size: 16px;
+  --text-16-400-weight: 400;
+  --text-16-400-lh: 1;
+
+  --text-14-600-size: 14px;
+  --text-14-600-weight: 600;
+  --text-14-600-lh: 1;
+
+  --text-14-500-size: 14px;
+  --text-14-500-weight: 500;
+  --text-14-500-lh: 1;
+
+  --text-14-400-size: 14px;
+  --text-14-400-weight: 400;
+  --text-14-400-lh: 1;
+
+  --text-12-600-size: 12px;
+  --text-12-600-weight: 600;
+  --text-12-600-lh: 1;
+
+  --text-12-500-size: 12px;
+  --text-12-500-weight: 500;
+  --text-12-500-lh: 1;
+
+  --text-12-400-size: 12px;
+  --text-12-400-weight: 400;
+  --text-12-400-lh: 1;
+
+  --text-11-600-size: 11px;
+  --text-11-600-weight: 600;
+  --text-11-600-lh: 1;
+
+  --text-11-500-size: 11px;
+  --text-11-500-weight: 500;
+  --text-11-500-lh: 1;
+
+  --text-11-400-size: 11px;
+  --text-11-400-weight: 400;
+  --text-11-400-lh: 1;
+
+  --text-10-600-size: 10px;
+  --text-10-600-weight: 600;
+  --text-10-600-lh: 1;
+
+  --text-10-500-size: 10px;
+  --text-10-500-weight: 500;
+  --text-10-500-lh: 1;
+
+  --text-10-400-size: 10px;
+  --text-10-400-weight: 400;
+  --text-10-400-lh: 1;
+
+  /* Icon size tokens */
+  --icon-size-24: 24px;
+  --icon-size-28: 28px;
+}
