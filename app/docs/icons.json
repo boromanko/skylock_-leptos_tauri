@@ -1,0 +1,294 @@
+{
+  "source": "reference prototype/skylock_ds",
+  "font": "Material Symbols Rounded",
+  "items": [
+    {
+      "name": "ArrowBack",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "ArrowForward",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "ArrowUp",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "ArrowDown",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "ArrowRight",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Check",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Close",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "RadioButtonUnchecked",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "RadioButtonChecked",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "ToggleOn",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "ToggleOff",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Edit",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Keyboard",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Backspace",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Search",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Settings",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Home",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Place",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Wifi",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Radar",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Air",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Thermostat",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Opacity",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "WaterDrop",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "HomeRepairService",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Swords",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Rocket",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "DisplaySettings",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Tablet",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Delete",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Visibility",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "VisibilityOff",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Add",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Remove",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Error",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Warning",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Info",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "CheckboxChecked",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "CheckboxUnchecked",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "CoordinateProblem",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Landmark",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "GnssOk",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "GnssError",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "CenterFocusWeak",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Stop",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "FiberManualRecord",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "Download",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    },
+    {
+      "name": "SystemUpdateAlt",
+      "codepoint": null,
+      "char": null,
+      "hex": null
+    }
+  ]
+}
