@@ -1,8 +1,8 @@
 # UI Component Checklist
 
 ## Foundations
-- [ ] Design tokens (colors, typography, spacing, radius, z-index, shadows)
-- [ ] CSS reset / base styles
+- [x] Design tokens (colors, typography, icon sizes)
+- [x] CSS reset / base styles
 - [ ] Layout grid / spacing scale
 - [ ] Focus ring + focus manager
 - [ ] Input mapping (hardware buttons -> UI events)
@@ -29,7 +29,7 @@
 - [ ] Status / Help placeholders
 
 ## Utilities
-- [ ] Icons set (Material Symbols mapping)
+- [x] Icons set (Material Symbols mapping)
 - [ ] Animation helpers (open/close, press, focus)
 - [ ] Theme switch (if needed)
 - [ ] Accessibility notes (focus/contrast)

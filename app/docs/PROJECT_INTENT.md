@@ -9,7 +9,7 @@ This repository contains the new Skylock UI built with **Leptos + Tauri**. The U
 - Focus on **UI structure, styles, and interaction logic**.
 
 ## Core Principles
-- **CSS-first:** styling and animations are done in CSS; JS/Rust only for UI logic and state.
+- **SCSS-first:** styling and animations are done in SCSS; JS/Rust only for UI logic and state.
 - **Keyboard-first UX:** every screen is fully usable with the 6 buttons.
 - **Stable focus model:** all focusable elements have stable IDs and visible focus states.
 - **No business logic in UI:** UI emits typed events; backend integration is added later.
