@@ -1,0 +1,30 @@
+/* Shared component primitives */
+
+.icon {
+  display: inline-block;
+  font-family: "Material Symbols Rounded";
+  font-weight: 400;
+  font-style: normal;
+  font-size: var(--icon-size-24);
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+  color: var(--icon-primary);
+}
+
+.icon--filled {
+  font-family: "Material Symbols Rounded Filled";
+}
+
+.icon--24 {
+  font-size: var(--icon-size-24);
+}
+
+.icon--28 {
+  font-size: var(--icon-size-28);
+}

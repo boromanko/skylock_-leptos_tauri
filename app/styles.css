@@ -2,5 +2,6 @@
 @import "./src/styles/typography.css";
 @import "./src/styles/icons.css";
 @import "./src/styles/base.css";
+@import "./src/styles/components.css";
 
 /* App-specific styles will be added below. */
