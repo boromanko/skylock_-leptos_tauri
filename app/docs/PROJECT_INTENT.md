@@ -44,8 +44,16 @@ Skylock UI is a **keyboard‑first** interface for a dedicated device. The app i
 1) Check reference prototype for visuals only.
 2) Add/adjust tokens in `app/src/styles/tokens.scss` or `typography.scss`.
 3) Implement component styles in SCSS using tokens.
-4) Implement UI logic in Leptos with keyboard navigation + focus.
-5) Update docs in `app/docs/` if anything changes.
+4) Build a gallery/demo screen with plain HTML + SCSS to validate visuals fast.
+5) After styles are stable, **extract real Leptos components** with props/API.
+6) Implement UI logic in Leptos with keyboard navigation + focus.
+7) Update docs in `app/docs/` if anything changes.
+
+## Current phase (important)
+We are **intentionally** styling components as HTML + SCSS inside the gallery first.
+This is not a shortcut — it is a deliberate phase to lock down visuals and tokens.
+Once visuals are stable, every component will be refactored into a **real Leptos
+component** with a clean API (props), reusability, and keyboard-first behavior.
 
 ## References
 - Legacy prototype: `reference prototype/`

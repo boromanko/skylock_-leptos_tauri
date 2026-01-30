@@ -4,291 +4,195 @@
   "items": [
     {
       "name": "ArrowBack",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "arrow_back"
     },
     {
       "name": "ArrowForward",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "arrow_forward"
     },
     {
       "name": "ArrowUp",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "arrow_up"
     },
     {
       "name": "ArrowDown",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "arrow_down"
     },
     {
       "name": "ArrowRight",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "arrow_right"
     },
     {
       "name": "Check",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "check"
     },
     {
       "name": "Close",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "close"
     },
     {
       "name": "RadioButtonUnchecked",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "radio_button_unchecked"
     },
     {
       "name": "RadioButtonChecked",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "radio_button_checked"
     },
     {
       "name": "ToggleOn",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "toggle_on"
     },
     {
       "name": "ToggleOff",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "toggle_off"
     },
     {
       "name": "Edit",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "edit"
     },
     {
       "name": "Keyboard",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "keyboard"
     },
     {
       "name": "Backspace",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "backspace"
     },
     {
       "name": "Search",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "search"
     },
     {
       "name": "Settings",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "settings"
     },
     {
       "name": "Home",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "home"
     },
     {
       "name": "Place",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "place"
     },
     {
       "name": "Wifi",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "wifi"
     },
     {
       "name": "Radar",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "radar"
     },
     {
       "name": "Air",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "air"
     },
     {
       "name": "Thermostat",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "thermostat"
     },
     {
       "name": "Opacity",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "opacity"
     },
     {
       "name": "WaterDrop",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "water_drop"
     },
     {
       "name": "HomeRepairService",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "home_repair_service"
     },
     {
       "name": "Swords",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "swords"
     },
     {
       "name": "Rocket",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "rocket"
     },
     {
       "name": "DisplaySettings",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "display_settings"
     },
     {
       "name": "Tablet",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "tablet"
     },
     {
       "name": "Delete",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "delete"
     },
     {
       "name": "Visibility",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "visibility"
     },
     {
       "name": "VisibilityOff",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "visibility_off"
     },
     {
       "name": "Add",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "add"
     },
     {
       "name": "Remove",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "remove"
     },
     {
       "name": "Error",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "error"
     },
     {
       "name": "Warning",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "warning"
     },
     {
       "name": "Info",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "info"
     },
     {
       "name": "CheckboxChecked",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "checkbox_checked"
     },
     {
       "name": "CheckboxUnchecked",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "checkbox_unchecked"
     },
     {
       "name": "CoordinateProblem",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "coordinate_problem"
     },
     {
       "name": "Landmark",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "landmark"
     },
     {
       "name": "GnssOk",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "gnss_ok"
     },
     {
       "name": "GnssError",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "gnss_error"
     },
     {
       "name": "CenterFocusWeak",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "center_focus_weak"
     },
     {
       "name": "Stop",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "stop"
     },
     {
       "name": "FiberManualRecord",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "fiber_manual_record"
     },
     {
       "name": "Download",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "download"
     },
     {
       "name": "SystemUpdateAlt",
-      "codepoint": null,
-      "char": null,
-      "hex": null
+      "ligature": "system_update_alt"
     }
   ]
 }

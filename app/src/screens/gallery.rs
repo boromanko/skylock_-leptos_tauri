@@ -27,8 +27,8 @@ pub fn GalleryScreen() -> impl IntoView {
                                             style=format!("background: var({});", var_name)
                                         />
                                         <div class="swatch__meta">
-                                            <div class="swatch__label">{label}</div>
-                                            <div class="swatch__var">{var_name}</div>
+                                            <div class="swatch__label">{*label}</div>
+                                            <div class="swatch__var">{*var_name}</div>
                                         </div>
                                     </div>
                                 }
@@ -57,7 +57,12 @@ pub fn GalleryScreen() -> impl IntoView {
                                 <div class="list-item__subtitle text-12-400 text-muted">"Subtitle"</div>
                             </div>
                             <div class="list-item__trailing">
-                                <span class="icon icon--28" style="--icon-glyph: var(--icon-arrow-right);"></span>
+                                <div class="list-item__trailing-main">
+                                    <span class="icon icon--24" style="--icon-glyph: var(--icon-radio-button-checked);"></span>
+                                </div>
+                                <div class="list-item__trailing-arrow">
+                                    <span class="icon icon--28" style="--icon-glyph: var(--icon-arrow-right);"></span>
+                                </div>
                             </div>
                         </div>
 
@@ -70,7 +75,10 @@ pub fn GalleryScreen() -> impl IntoView {
                                 <div class="list-item__subtitle text-12-400 text-muted">"Available"</div>
                             </div>
                             <div class="list-item__trailing">
-                                <span class="icon icon--28" style="--icon-glyph: var(--icon-arrow-right);"></span>
+                                <div class="list-item__trailing-main">
+                                    <div class="list-item__toggle list-item__toggle--on"></div>
+                                </div>
+                                <div class="list-item__trailing-arrow list-item__trailing-arrow--empty"></div>
                             </div>
                         </div>
 
@@ -83,7 +91,12 @@ pub fn GalleryScreen() -> impl IntoView {
                                 <div class="list-item__subtitle text-12-400">"Remove data"</div>
                             </div>
                             <div class="list-item__trailing">
-                                <span class="icon icon--28" style="--icon-glyph: var(--icon-arrow-right);"></span>
+                                <div class="list-item__trailing-main">
+                                    <span class="icon icon--24" style="--icon-glyph: var(--icon-checkbox-unchecked);"></span>
+                                </div>
+                                <div class="list-item__trailing-arrow">
+                                    <span class="icon icon--28" style="--icon-glyph: var(--icon-arrow-right);"></span>
+                                </div>
                             </div>
                         </div>
                     </div>
