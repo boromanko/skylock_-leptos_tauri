@@ -136,6 +136,39 @@ pub fn GalleryScreen() -> impl IntoView {
                     </div>
                 </section>
 
+                <section id="button" class="gallery__section">
+                    <h2 class="gallery__title">"Button"</h2>
+                    <div class="gallery__stack">
+                        <button class="button pressable">
+                            <span class="button__label">"Default"</span>
+                        </button>
+
+                        <button class="button button--primary pressable">
+                            <span class="button__icon centered">
+                                <span class="icon icon--24 icon--filled icon--inherit" style="--icon-glyph: var(--icon-download);"></span>
+                            </span>
+                            <span class="button__label">"Primary"</span>
+                        </button>
+
+                        <button class="button button--danger pressable">
+                            <span class="button__icon centered">
+                                <span class="icon icon--24 icon--filled icon--inherit" style="--icon-glyph: var(--icon-delete);"></span>
+                            </span>
+                            <span class="button__label">"Danger"</span>
+                        </button>
+
+                        <button class="button button--disabled" disabled>
+                            <span class="button__label">"Disabled"</span>
+                        </button>
+
+                        <button class="button button--primary pressable">
+                            <span class="button__icon centered">
+                                <span class="icon icon--24 icon--filled icon--inherit" style="--icon-glyph: var(--icon-download);"></span>
+                            </span>
+                        </button>
+                    </div>
+                </section>
+
                 <section id="list-item" class="gallery__section">
                     <h2 class="gallery__title">"List Item Combinations"</h2>
                     <div class="gallery__stack">
@@ -336,6 +369,7 @@ pub fn GalleryScreen() -> impl IntoView {
                     <a href="#semantic-colors" class="gallery__nav-link">"Semantic Colors"</a>
                     <a href="#semantic-text" class="gallery__nav-link">"Semantic Text"</a>
                     <a href="#typography" class="gallery__nav-link">"Typography"</a>
+                    <a href="#button" class="gallery__nav-link">"Button"</a>
                     <a href="#list-item" class="gallery__nav-link">"List Item Combos"</a>
                 </nav>
             </aside>

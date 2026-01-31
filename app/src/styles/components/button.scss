@@ -1,0 +1,67 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-8);
+  padding: var(--space-16) var(--space-24);
+  min-height: 56px;
+  border-radius: var(--radius-8);
+  border: none;
+  background: var(--action-default);
+  color: var(--text-primary);
+  font-size: var(--text-16-600-size);
+  font-weight: var(--text-16-600-weight);
+  line-height: var(--text-16-600-lh);
+  transition: var(--transition-button-bg);
+}
+
+.button__icon {
+  width: var(--size-24);
+  height: var(--size-24);
+}
+
+.button__icon .icon {
+  color: inherit;
+}
+
+.button__label {
+  display: inline-flex;
+  align-items: center;
+}
+
+.button--primary {
+  background: var(--action-primary);
+  color: var(--text-on-primary);
+}
+
+.button--danger {
+  color: var(--text-danger);
+}
+
+.button--disabled {
+  background: var(--action-disabled);
+  color: var(--text-disabled);
+}
+
+.button:hover,
+.button:focus-visible,
+.button--active {
+  background: var(--action-hover);
+}
+
+.button--primary:hover,
+.button--primary:focus-visible,
+.button--primary.button--active {
+  background: var(--action-primary-hover);
+}
+
+.button--danger:hover,
+.button--danger:focus-visible,
+.button--danger.button--active {
+  background: var(--action-hover);
+}
+
+.button--disabled:hover,
+.button--disabled:focus-visible {
+  background: var(--action-disabled);
+}
