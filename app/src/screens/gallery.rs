@@ -225,6 +225,16 @@ pub fn GalleryScreen() -> impl IntoView {
                     </div>
                 </section>
 
+                <section id="pill-badge" class="gallery__section">
+                    <h2 class="gallery__title">"Pill & Badge"</h2>
+                    <div class="gallery__stack">
+                        <div class="pill text-12-600">"Updated"</div>
+                        <div class="pill text-12-600">"Beta"</div>
+                        <div class="badge">"3"</div>
+                        <div class="badge">"99+"</div>
+                    </div>
+                </section>
+
                 <section id="editable-field" class="gallery__section">
                     <h2 class="gallery__title">"Editable Field"</h2>
                     <div class="gallery__stack">
@@ -482,6 +492,56 @@ pub fn GalleryScreen() -> impl IntoView {
                     </div>
                 </section>
 
+                <section id="radial" class="gallery__section">
+                    <h2 class="gallery__title">"Radial Menu"</h2>
+                    <div class="radial-demo">
+                        <div class="radial-demo__scrim"></div>
+                        <div class="radial-demo__panel">
+                            <div class="radial" style="--ray-angle: 0deg;">
+                                <img class="radial__ray" src="/public/images/ray.png" alt="Ray" />
+                                <div class="radial__grid">
+                                    <div class="radial__item radial__item--up pressable" tabindex="0">
+                                        <div class="radial__icon">
+                                            <img class="radial__icon-img radial__icon-img--default" src="/public/images/orientiran-default.svg" alt="Орієнтир" />
+                                            <img class="radial__icon-img radial__icon-img--focus" src="/public/images/orientiran-focus.svg" alt="Орієнтир" />
+                                        </div>
+                                        <div class="radial__title">"Орієнтир"</div>
+                                        <div class="radial__subtitle radial__subtitle--hidden">"00:00"</div>
+                                    </div>
+
+                                    <div class="radial__item radial__item--right radial__item--active pressable" tabindex="0">
+                                        <div class="radial__icon">
+                                            <img class="radial__icon-img radial__icon-img--default" src="/public/images/settings - default.svg" alt="Налаштування" />
+                                            <img class="radial__icon-img radial__icon-img--focus" src="/public/images/settings - focus.svg" alt="Налаштування" />
+                                            <div class="badge radial__badge">"2"</div>
+                                        </div>
+                                        <div class="radial__title">"Налаштування"</div>
+                                        <div class="radial__subtitle radial__subtitle--hidden">"00:00"</div>
+                                    </div>
+
+                                    <div class="radial__item radial__item--down pressable" tabindex="0">
+                                        <div class="radial__icon">
+                                            <img class="radial__icon-img radial__icon-img--default" src="/public/images/record - default.svg" alt="Запис" />
+                                            <img class="radial__icon-img radial__icon-img--focus" src="/public/images/record - focus.svg" alt="Запис" />
+                                        </div>
+                                        <div class="radial__title">"Запис"</div>
+                                        <div class="radial__subtitle">"00:42"</div>
+                                    </div>
+
+                                    <div class="radial__item radial__item--left pressable" tabindex="0">
+                                        <div class="radial__icon">
+                                            <img class="radial__icon-img radial__icon-img--default" src="/public/images/shots - default.svg" alt="Постріли" />
+                                            <img class="radial__icon-img radial__icon-img--focus" src="/public/images/shots - focus.svg" alt="Постріли" />
+                                        </div>
+                                        <div class="radial__title">"Постріли"</div>
+                                        <div class="radial__subtitle radial__subtitle--hidden">"00:00"</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 <section id="list-item" class="gallery__section">
                     <h2 class="gallery__title">"List Item Combinations"</h2>
                     <div class="gallery__stack">
@@ -490,7 +550,10 @@ pub fn GalleryScreen() -> impl IntoView {
                                 <span class="icon icon--24 icon--filled icon--inherit" style="--icon-glyph: var(--icon-settings);"></span>
                             </div>
                             <div class="list-item__content">
-                                <div class="list-item__title text-16-600">"Settings"</div>
+                                <div class="list-item__title-row">
+                                    <div class="list-item__title text-16-600">"Settings"</div>
+                                    <div class="badge list-item__badge">"2"</div>
+                                </div>
                                 <div class="list-item__subtitle text-12-400 text-muted">"Subtitle"</div>
                             </div>
                             <div class="list-item__trailing">

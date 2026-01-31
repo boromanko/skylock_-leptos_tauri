@@ -1,0 +1,17 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: start;
+  width: fit-content;
+  min-width: var(--size-20);
+  height: var(--size-20);
+  padding: 0 var(--space-4);
+  border-radius: var(--radius-full);
+  background: var(--accent-primary);
+  color: var(--text-on-primary);
+  font-size: var(--text-12-600-size);
+  font-weight: var(--text-12-600-weight);
+  line-height: var(--text-12-600-lh);
+  white-space: nowrap;
+}

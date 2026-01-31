@@ -1,0 +1,13 @@
+.pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  justify-self: start;
+  width: fit-content;
+  padding: var(--space-8) var(--space-12);
+  border-radius: var(--radius-full);
+  background: var(--accent-primary);
+  color: var(--text-on-primary);
+  line-height: 1;
+  white-space: nowrap;
+}

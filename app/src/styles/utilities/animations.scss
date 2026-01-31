@@ -1,12 +1,15 @@
 :root {
   --press-scale: 0.965;
   --ease-out-spring: cubic-bezier(0.22, 1.4, 0.36, 1);
-  --transition-press: transform 120ms ease;
+  --ease-out-press: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-spring-gentle: cubic-bezier(0.16, 1.12, 0.32, 1);
+  --transition-press: transform 400ms var(--ease-out-press);
   --transition-list-item-bg: background 120ms ease;
   --transition-button-bg: background 120ms ease;
   --transition-toggle-bg: background 140ms ease;
   --transition-toggle-thumb: transform 220ms var(--ease-out-spring),
     background 120ms ease;
+  --transition-ray-rotate: transform 520ms var(--ease-spring-gentle);
 }
 
 @keyframes caret-blink {
@@ -26,5 +29,9 @@
 }
 
 .pressable:active {
+  transform: scale(var(--press-scale));
+}
+
+.pressable.is-pressed {
   transform: scale(var(--press-scale));
 }

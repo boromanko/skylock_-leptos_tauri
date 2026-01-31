@@ -79,9 +79,11 @@
   --surface-muted: var(--color-white-4);
   --surface-raised: var(--color-white-10);
   --surface-toast: var(--color-gray-900);
+  --radial-bg: var(--color-black-100);
 
   --border-subtle: var(--color-white-10);
   --border-focus: var(--color-white-20);
+  --border-radial: var(--color-white-10);
 
   --action-default: var(--color-white-4);
   --action-hover: var(--color-white-15);
@@ -110,4 +112,5 @@
   --shadow-toast: 0 4px 12px var(--color-black-50);
 
   --overlay-backdrop: rgba(0, 0, 0, 0.6);
+  --scrim-radial: var(--color-black-75);
 }

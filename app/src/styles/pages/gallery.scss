@@ -126,3 +126,49 @@
 .overlay-demo .overlay {
   position: absolute;
 }
+
+.radial-demo {
+  position: relative;
+  height: 640px;
+  border: 1px dashed var(--border-subtle);
+  border-radius: var(--radius-16);
+  overflow: hidden;
+  background: var(--surface-base);
+}
+
+.radial-demo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.04) 0,
+      rgba(255, 255, 255, 0.04) 12px,
+      transparent 12px,
+      transparent 24px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      rgba(255, 255, 255, 0.03) 0,
+      rgba(255, 255, 255, 0.03) 10px,
+      transparent 10px,
+      transparent 22px
+    );
+  opacity: 0.4;
+  z-index: 0;
+}
+
+.radial-demo__scrim {
+  position: absolute;
+  inset: 0;
+  background: var(--scrim-radial);
+  z-index: 1;
+}
+
+.radial-demo__panel {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  z-index: 2;
+}

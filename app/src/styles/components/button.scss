@@ -12,7 +12,7 @@
   font-size: var(--text-16-600-size);
   font-weight: var(--text-16-600-weight);
   line-height: var(--text-16-600-lh);
-  transition: var(--transition-button-bg);
+  transition: var(--transition-button-bg), var(--transition-press);
 }
 
 .button:focus-visible,
