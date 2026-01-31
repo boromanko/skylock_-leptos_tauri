@@ -50,7 +50,7 @@ pub fn GalleryScreen() -> impl IntoView {
                     <div class="gallery__stack">
                         <div class="list-item list-item--with-leading" tabindex="0">
                             <div class="list-item__leading">
-                                <span class="icon icon--24" style="--icon-glyph: var(--icon-settings);"></span>
+                                <span class="icon icon--24 icon--filled" style="--icon-glyph: var(--icon-settings);"></span>
                             </div>
                             <div class="list-item__content">
                                 <div class="list-item__title text-16-600">"Settings"</div>
@@ -58,10 +58,10 @@ pub fn GalleryScreen() -> impl IntoView {
                             </div>
                             <div class="list-item__trailing">
                                 <div class="list-item__trailing-main">
-                                    <span class="icon icon--24" style="--icon-glyph: var(--icon-radio-button-checked);"></span>
+                                    <span class="icon icon--28 icon--filled icon--primary" style="--icon-glyph: var(--icon-radio-button-checked);"></span>
                                 </div>
                                 <div class="list-item__trailing-arrow">
-                                    <span class="icon icon--28" style="--icon-glyph: var(--icon-arrow-right);"></span>
+                                    <span class="icon icon--24 icon--filled" style="--icon-glyph: var(--icon-chevron-right);"></span>
                                 </div>
                             </div>
                         </div>
@@ -74,17 +74,16 @@ pub fn GalleryScreen() -> impl IntoView {
                                 <div class="list-item__title text-16-600">"Update"</div>
                                 <div class="list-item__subtitle text-12-400 text-muted">"Available"</div>
                             </div>
-                            <div class="list-item__trailing">
+                            <div class="list-item__trailing list-item__trailing--no-arrow">
                                 <div class="list-item__trailing-main">
                                     <div class="list-item__toggle list-item__toggle--on"></div>
                                 </div>
-                                <div class="list-item__trailing-arrow list-item__trailing-arrow--empty"></div>
                             </div>
                         </div>
 
                         <div class="list-item list-item--danger list-item--with-leading" tabindex="0">
                             <div class="list-item__leading">
-                                <span class="icon icon--24" style="--icon-glyph: var(--icon-delete);"></span>
+                                <span class="icon icon--24 icon--filled" style="--icon-glyph: var(--icon-delete);"></span>
                             </div>
                             <div class="list-item__content">
                                 <div class="list-item__title text-16-600">"Delete"</div>
@@ -92,10 +91,10 @@ pub fn GalleryScreen() -> impl IntoView {
                             </div>
                             <div class="list-item__trailing">
                                 <div class="list-item__trailing-main">
-                                    <span class="icon icon--24" style="--icon-glyph: var(--icon-checkbox-unchecked);"></span>
+                                    <span class="icon icon--28 icon--filled icon--secondary" style="--icon-glyph: var(--icon-checkbox-unchecked);"></span>
                                 </div>
                                 <div class="list-item__trailing-arrow">
-                                    <span class="icon icon--28" style="--icon-glyph: var(--icon-arrow-right);"></span>
+                                    <span class="icon icon--24 icon--filled" style="--icon-glyph: var(--icon-chevron-right);"></span>
                                 </div>
                             </div>
                         </div>

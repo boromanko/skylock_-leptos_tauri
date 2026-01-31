@@ -57,6 +57,4 @@ component** with a clean API (props), reusability, and keyboard-first behavior.
 
 ## References
 - Legacy prototype: `reference prototype/`
-- Tokens source: `app/docs/Variable collection.json`
-- Typography source: `app/docs/textStyles.json`
 - Icon list: `app/docs/icons.json`

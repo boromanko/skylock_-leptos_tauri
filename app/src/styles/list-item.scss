@@ -26,6 +26,10 @@
   color: var(--icon-secondary);
 }
 
+.list-item__leading .icon {
+  color: inherit;
+}
+
 .list-item__leading--primary {
   background: var(--accent-primary);
   color: var(--text-on-primary);
@@ -47,33 +51,43 @@
 .list-item__trailing {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: var(--space-12);
+  justify-content: flex-end;
+  gap: 0;
+  padding-right: 0;
   color: var(--icon-secondary);
+}
+
+.list-item__trailing .icon {
+  color: inherit;
+}
+
+.list-item__trailing--no-arrow {
+  padding-right: var(--size-28);
 }
 
 .list-item__trailing-main {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: var(--space-4);
+}
+
+.list-item__trailing--no-arrow .list-item__trailing-main {
+  margin-right: 0;
 }
 
 .list-item__trailing-arrow {
-  width: var(--size-28);
-  height: var(--size-28);
+  width: var(--size-24);
+  height: var(--size-24);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.list-item__trailing-arrow--empty {
-  visibility: hidden;
-}
-
 .list-item__toggle {
   position: relative;
-  width: var(--size-44);
-  height: var(--size-24);
+  width: var(--size-48);
+  height: var(--size-28);
   background: var(--switch-track-off);
   border-radius: var(--radius-16);
 }
@@ -83,8 +97,8 @@
   position: absolute;
   top: 2px;
   left: 2px;
-  width: var(--size-20);
-  height: var(--size-20);
+  width: var(--size-24);
+  height: var(--size-24);
   border-radius: 50%;
   background: var(--switch-thumb);
   transition: transform 120ms ease, background 120ms ease;
@@ -133,8 +147,20 @@
 
 .list-item--danger .list-item__title,
 .list-item--danger .list-item__subtitle,
-.list-item--danger .list-item__trailing {
+.list-item--danger .list-item__trailing,
+.list-item--danger .list-item__leading {
   color: var(--accent-danger);
+}
+
+.list-item--danger:hover .list-item__title,
+.list-item--danger:hover .list-item__subtitle,
+.list-item--danger:hover .list-item__trailing,
+.list-item--danger:hover .list-item__leading,
+.list-item--danger:focus-visible .list-item__title,
+.list-item--danger:focus-visible .list-item__subtitle,
+.list-item--danger:focus-visible .list-item__trailing,
+.list-item--danger:focus-visible .list-item__leading {
+  color: var(--accent-danger-hover);
 }
 
 .text-16-600 {

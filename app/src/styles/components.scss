@@ -34,6 +34,18 @@
     "opsz" var(--icon-opsz);
 }
 
+.icon--primary {
+  color: var(--accent-primary);
+}
+
+.icon--secondary {
+  color: var(--icon-secondary);
+}
+
+.icon--danger {
+  color: var(--accent-danger);
+}
+
 .icon--24 {
   font-size: var(--icon-size-24);
 }
