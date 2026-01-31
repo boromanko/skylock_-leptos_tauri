@@ -113,3 +113,16 @@
   font-size: 12px;
   color: var(--text-muted);
 }
+
+.overlay-demo {
+  position: relative;
+  height: 320px;
+  border: 1px dashed var(--border-subtle);
+  border-radius: var(--radius-16);
+  overflow: hidden;
+  background: var(--surface-muted);
+}
+
+.overlay-demo .overlay {
+  position: absolute;
+}

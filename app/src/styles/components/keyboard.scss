@@ -1,0 +1,52 @@
+.keyboard {
+  display: grid;
+  gap: var(--space-12);
+}
+
+.keyboard--text {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.keyboard--numeric {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.keyboard__key {
+  height: 72px;
+  min-height: 72px;
+  border-radius: var(--radius-8);
+  padding: 0;
+  min-width: 0;
+  justify-content: center;
+  font-size: var(--text-24-500-size);
+  font-weight: var(--text-24-500-weight);
+  line-height: var(--text-24-500-lh);
+}
+
+.keyboard__key.button--disabled {
+  pointer-events: none;
+}
+
+.keyboard__key--focus {
+  background: var(--action-focus);
+}
+
+.keyboard__key--pressed {
+  background: var(--action-pressed);
+}
+
+.button--primary.keyboard__key--focus {
+  background: var(--action-primary-focus);
+}
+
+.button--primary.keyboard__key--pressed {
+  background: var(--action-primary-pressed);
+}
+
+.keyboard__key--span-2 {
+  grid-column: span 2;
+}
+
+.keyboard__key--span-6 {
+  grid-column: span 6;
+}

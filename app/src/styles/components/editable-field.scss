@@ -1,0 +1,60 @@
+.editable-field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  color: var(--text-primary);
+}
+
+.editable-field--center {
+  align-items: center;
+  text-align: center;
+}
+
+.editable-field--start {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.editable-field__label {
+  color: var(--text-secondary);
+}
+
+.editable-field__value {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  color: var(--text-primary);
+}
+
+.editable-field__text {
+  display: inline-block;
+}
+
+.editable-field__caret {
+  width: var(--size-2);
+  height: 1em;
+  margin-left: var(--size-2);
+  background: var(--text-primary);
+  animation: caret-blink 1s steps(1, end) infinite;
+}
+
+.editable-field--error .editable-field__value {
+  color: var(--text-danger);
+}
+
+.editable-field--error .editable-field__caret {
+  background: var(--text-primary);
+}
+
+.editable-field--disabled {
+  color: var(--text-disabled);
+}
+
+.editable-field--disabled .editable-field__label,
+.editable-field--disabled .editable-field__value {
+  color: var(--text-disabled);
+}
+
+.editable-field--disabled .editable-field__caret {
+  background: var(--text-disabled);
+}

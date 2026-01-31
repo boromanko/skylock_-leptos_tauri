@@ -78,6 +78,7 @@
   --surface-base: var(--color-black-100);
   --surface-muted: var(--color-white-4);
   --surface-raised: var(--color-white-10);
+  --surface-toast: var(--color-gray-900);
 
   --border-subtle: var(--color-white-10);
   --border-focus: var(--color-white-20);
@@ -106,4 +107,7 @@
   --switch-thumb-disabled: var(--color-white-50);
 
   --shadow-toggle-thumb: 0 var(--size-2) var(--size-4) var(--color-black-50);
+  --shadow-toast: 0 4px 12px var(--color-black-50);
+
+  --overlay-backdrop: rgba(0, 0, 0, 0.6);
 }

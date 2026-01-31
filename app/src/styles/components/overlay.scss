@@ -1,0 +1,34 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-24);
+  background: var(--overlay-backdrop);
+}
+
+.overlay__panel {
+  width: min(560px, 100%);
+  background: var(--surface-base);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-16);
+  padding: var(--space-24);
+  display: grid;
+  gap: var(--space-16);
+}
+
+.overlay__title {
+  color: var(--text-primary);
+}
+
+.overlay__body {
+  color: var(--text-secondary);
+}
+
+.overlay__actions {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  gap: var(--space-16);
+}

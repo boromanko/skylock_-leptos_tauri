@@ -15,6 +15,16 @@
   transition: var(--transition-button-bg);
 }
 
+.button:focus-visible,
+.button--focus {
+  box-shadow: 0 0 0 3px var(--accent-primary);
+}
+
+.button--disabled:focus-visible,
+.button--disabled.button--focus {
+  box-shadow: none;
+}
+
 .button__icon {
   width: var(--size-24);
   height: var(--size-24);
