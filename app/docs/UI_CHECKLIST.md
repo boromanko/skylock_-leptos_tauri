@@ -8,16 +8,16 @@
 - [ ] Input mapping (hardware buttons -> UI events)
 
 ## Core Components
-- [ ] Button
+- [x] Button
 - [ ] Icon Button
 - [x] List Item (Settings row)
-- [ ] Toggle Switch
-- [ ] Radio / Checkbox
-- [ ] Text Input (editable field)
-- [ ] On-screen Keyboard (text)
-- [ ] On-screen Keypad (numeric)
-- [ ] Toast / System feedback
-- [ ] Modal / Overlay shell
+- [x] Toggle Switch
+- [x] Radio / Checkbox
+- [x] Text Input (editable field)
+- [x] On-screen Keyboard (text)
+- [x] On-screen Keypad (numeric)
+- [x] Toast / System feedback
+- [x] Modal / Overlay shell
 
 ## Screens
 - [ ] Home / Landing
@@ -30,6 +30,6 @@
 
 ## Utilities
 - [x] Icons set (Material Symbols mapping)
-- [ ] Animation helpers (open/close, press, focus)
+- [x] Animation helpers (open/close, press, focus)
 - [ ] Theme switch (if needed)
 - [ ] Accessibility notes (focus/contrast)
