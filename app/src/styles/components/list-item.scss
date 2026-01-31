@@ -1,3 +1,5 @@
+@use "../utilities/utilities.scss" as *;
+
 .list-item {
   display: grid;
   grid-template-columns: auto 1fr auto;

@@ -1,15 +1,15 @@
-@import "./src/styles/tokens/tokens.scss";
-@import "./src/styles/tokens/sizing.scss";
-@import "./src/styles/tokens/typography.scss";
-@import "./src/styles/tokens/icons.scss";
-@import "./src/styles/base/base.scss";
-@import "./src/styles/utilities/animations.scss";
-@import "./src/styles/utilities/utilities.scss";
-@import "./src/styles/components/components.scss";
-@import "./src/styles/components/checkbox.scss";
-@import "./src/styles/components/radio.scss";
-@import "./src/styles/components/toggle.scss";
-@import "./src/styles/components/list-item.scss";
-@import "./src/styles/pages/gallery.scss";
+@use "./src/styles/tokens/tokens.scss" as *;
+@use "./src/styles/tokens/sizing.scss" as *;
+@use "./src/styles/tokens/typography.scss" as *;
+@use "./src/styles/tokens/icons.scss" as *;
+@use "./src/styles/base/base.scss" as *;
+@use "./src/styles/utilities/animations.scss" as *;
+@use "./src/styles/utilities/utilities.scss" as *;
+@use "./src/styles/components/components.scss" as *;
+@use "./src/styles/components/checkbox.scss" as *;
+@use "./src/styles/components/radio.scss" as *;
+@use "./src/styles/components/toggle.scss" as *;
+@use "./src/styles/components/list-item.scss" as *;
+@use "./src/styles/pages/gallery.scss" as *;
 
 /* App-specific styles will be added below. */
