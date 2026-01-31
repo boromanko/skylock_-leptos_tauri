@@ -1,0 +1,15 @@
+.checkbox {
+  width: var(--size-28);
+  height: var(--size-28);
+  @extend .centered;
+  color: var(--text-secondary);
+}
+
+
+.checkbox--checked {
+  color: var(--accent-primary);
+}
+
+.checkbox--disabled {
+  color: var(--icon-disabled);
+}

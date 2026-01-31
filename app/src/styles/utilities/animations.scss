@@ -1,0 +1,18 @@
+:root {
+  --press-scale: 0.965;
+  --ease-out-spring: cubic-bezier(0.22, 1.4, 0.36, 1);
+  --transition-press: transform 120ms ease;
+  --transition-list-item-bg: background 120ms ease;
+  --transition-toggle-bg: background 140ms ease;
+  --transition-toggle-thumb: transform 220ms var(--ease-out-spring),
+    background 120ms ease;
+}
+
+.pressable {
+  transition: var(--transition-press);
+  transform-origin: center;
+}
+
+.pressable:active {
+  transform: scale(var(--press-scale));
+}

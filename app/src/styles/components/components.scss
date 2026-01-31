@@ -46,6 +46,10 @@
   color: var(--accent-danger);
 }
 
+.icon--inherit {
+  color: inherit;
+}
+
 .icon--24 {
   font-size: var(--icon-size-24);
 }

@@ -1,0 +1,40 @@
+:root {
+  --stack-gap-sm: 12px;
+  --stack-gap-md: 16px;
+  --stack-gap-lg: 20px;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stack {
+  display: grid;
+  gap: var(--stack-gap-md);
+}
+
+.stack--sm {
+  gap: var(--stack-gap-sm);
+}
+
+.stack--md {
+  gap: var(--stack-gap-md);
+}
+
+.stack--lg {
+  gap: var(--stack-gap-lg);
+}
+
+.surface-card {
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border-subtle);
+  background: var(--surface-muted);
+}
+
+.surface-chip {
+  border-radius: 6px;
+  border: 1px solid var(--border-subtle);
+}

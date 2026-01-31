@@ -1,10 +1,15 @@
-@import "./src/styles/tokens.scss";
-@import "./src/styles/sizing.scss";
-@import "./src/styles/typography.scss";
-@import "./src/styles/icons.scss";
-@import "./src/styles/base.scss";
-@import "./src/styles/components.scss";
-@import "./src/styles/list-item.scss";
-@import "./src/styles/gallery.scss";
+@import "./src/styles/tokens/tokens.scss";
+@import "./src/styles/tokens/sizing.scss";
+@import "./src/styles/tokens/typography.scss";
+@import "./src/styles/tokens/icons.scss";
+@import "./src/styles/base/base.scss";
+@import "./src/styles/utilities/animations.scss";
+@import "./src/styles/utilities/utilities.scss";
+@import "./src/styles/components/components.scss";
+@import "./src/styles/components/checkbox.scss";
+@import "./src/styles/components/radio.scss";
+@import "./src/styles/components/toggle.scss";
+@import "./src/styles/components/list-item.scss";
+@import "./src/styles/pages/gallery.scss";
 
 /* App-specific styles will be added below. */

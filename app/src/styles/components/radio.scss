@@ -1,0 +1,15 @@
+.radio {
+  width: var(--size-28);
+  height: var(--size-28);
+  @extend .centered;
+  color: var(--text-secondary);
+}
+
+
+.radio--checked {
+  color: var(--accent-primary);
+}
+
+.radio--disabled {
+  color: var(--icon-disabled);
+}

@@ -21,14 +21,19 @@
 }
 
 .gallery__stack {
-  display: grid;
-  gap: 16px;
+  @extend .stack;
 }
 
 .gallery__swatches {
-  display: grid;
-  gap: 12px;
+  @extend .stack;
+  @extend .stack--sm;
   max-width: 480px;
+}
+
+.gallery__text-samples {
+  @extend .stack;
+  @extend .stack--sm;
+  max-width: 520px;
 }
 
 .gallery__sidebar {
@@ -71,10 +76,9 @@
 }
 
 .swatch__chip {
+  @extend .surface-chip;
   width: 48px;
   height: 24px;
-  border-radius: 6px;
-  border: 1px solid var(--border-subtle);
 }
 
 .swatch__meta {
@@ -88,6 +92,22 @@
 }
 
 .swatch__var {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.text-sample {
+  @extend .surface-card;
+  display: grid;
+  gap: 4px;
+}
+
+.text-sample__label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.text-sample__var {
   font-size: 12px;
   color: var(--text-muted);
 }

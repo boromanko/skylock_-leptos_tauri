@@ -1,0 +1,38 @@
+.toggle {
+  position: relative;
+  width: var(--size-56);
+  height: var(--size-28);
+  background: var(--switch-track-off);
+  border-radius: var(--radius-full);
+  transition: var(--transition-toggle-bg);
+}
+
+.toggle::before {
+  content: "";
+  position: absolute;
+  top: var(--size-2);
+  left: var(--size-2);
+  width: var(--size-24);
+  height: var(--size-24);
+  border-radius: var(--radius-full);
+  background: var(--switch-thumb);
+  box-shadow: var(--shadow-toggle-thumb);
+  transition: var(--transition-toggle-thumb);
+}
+
+.toggle--on {
+  background: var(--switch-track-on);
+}
+
+.toggle--on::before {
+  transform: translateX(calc(var(--size-56) - var(--size-24) - var(--size-4)));
+}
+
+.toggle--disabled {
+  background: var(--switch-track-disabled);
+}
+
+.toggle--disabled::before {
+  background: var(--switch-thumb-disabled);
+  box-shadow: none;
+}

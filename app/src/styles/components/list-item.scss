@@ -1,0 +1,133 @@
+.list-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: var(--space-16);
+  padding: var(--space-24) var(--size-4) var(--space-24) var(--space-24);
+  border-radius: var(--radius-16);
+  color: var(--text-secondary);
+  background: transparent;
+  transition: var(--transition-list-item-bg);
+}
+
+.list-item--with-leading {
+  padding-left: var(--space-12);
+}
+
+.list-item__leading {
+  width: var(--size-48);
+  height: var(--size-48);
+  border-radius: 50%;
+  background: var(--surface-raised);
+  @extend .centered;
+  color: var(--icon-secondary);
+}
+
+
+.list-item__leading--primary {
+  background: var(--accent-primary);
+  color: var(--text-on-primary);
+}
+
+.list-item__content {
+  display: grid;
+  gap: var(--space-4);
+  min-height: var(--size-28);
+}
+
+.list-item__title {
+  color: var(--text-secondary);
+}
+
+.list-item__subtitle {
+  color: var(--text-muted);
+}
+
+.list-item__trailing {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
+  align-items: center;
+  justify-content: end;
+  gap: var(--size-4);
+  color: var(--icon-secondary);
+}
+
+
+.list-item__trailing-main {
+  @extend .centered;
+}
+
+.list-item__trailing-arrow {
+  width: var(--size-24);
+  height: var(--size-24);
+  @extend .centered;
+  color: var(--text-secondary);
+}
+
+.list-item__trailing--no-chevron .list-item__trailing-arrow {
+  visibility: hidden;
+}
+
+.list-item:hover,
+.list-item:focus-visible,
+.list-item--active {
+  background: var(--surface-raised);
+}
+
+.list-item:hover .list-item__title,
+.list-item:focus-visible .list-item__title,
+.list-item--active .list-item__title {
+  color: var(--text-primary);
+}
+
+.list-item:hover .list-item__trailing,
+.list-item:focus-visible .list-item__trailing,
+.list-item--active .list-item__trailing {
+  color: var(--icon-primary);
+}
+
+.list-item:hover .list-item__trailing-arrow,
+.list-item:focus-visible .list-item__trailing-arrow,
+.list-item--active .list-item__trailing-arrow {
+  color: var(--text-secondary);
+}
+
+.list-item:hover .list-item__leading,
+.list-item:focus-visible .list-item__leading,
+.list-item--active .list-item__leading {
+  color: var(--icon-primary);
+}
+
+
+.list-item--primary .list-item__title {
+  color: var(--accent-primary);
+}
+
+.list-item--primary:hover .list-item__title,
+.list-item--primary:focus-visible .list-item__title,
+.list-item--primary.list-item--active .list-item__title {
+  color: var(--accent-primary-hover);
+}
+
+.list-item--danger .list-item__title,
+.list-item--danger .list-item__subtitle,
+.list-item--danger .list-item__trailing,
+.list-item--danger .list-item__leading {
+  color: var(--accent-danger);
+}
+
+.list-item--danger:hover .list-item__title,
+.list-item--danger:hover .list-item__subtitle,
+.list-item--danger:focus-visible .list-item__title,
+.list-item--danger:focus-visible .list-item__subtitle,
+.list-item--danger.list-item--active .list-item__title,
+.list-item--danger.list-item--active .list-item__subtitle {
+  color: var(--accent-danger-hover);
+}
+
+.list-item--danger:hover .list-item__leading,
+.list-item--danger:focus-visible .list-item__leading,
+.list-item--danger.list-item--active .list-item__leading {
+  color: var(--accent-danger-hover);
+}
